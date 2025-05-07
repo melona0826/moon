@@ -5,10 +5,10 @@ import time
 
 start = time.time()
 
-speech_path       = 'output.wav'
+speech_path       = 'output2.wav'
 vocals_path       = 'only_voice5.mp3'
 inst_path         = 'only_music5.mp3'
-out_path          = 'final_test.wav'
+out_path          = 'tune_fin2.wav'
 
 speech, sr        = librosa.load(speech_path,      sr=None)
 vocals, _         = librosa.load(vocals_path,      sr=sr)
