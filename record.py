@@ -2,7 +2,7 @@ import sounddevice as sd
 from scipy.io.wavfile import write
 
 samplerate = 44100  # 샘플링 주파수 (Hz)
-duration = 50        # 녹음 시간 (초)
+duration = 120        # 녹음 시간 (초)
 filename = "output.wav"
 
 print("녹음 시작...")
